@@ -1,4 +1,4 @@
-## 🌍 Language Learning Chatbot
+# 🌍 Language Learning Chatbot
 
 A conversational AI-powered language learning assistant that helps users practice their language skills through realistic conversations and provides immediate feedback on mistakes.
 Show Image
@@ -19,103 +19,118 @@ Show Image
 - **Database:** SQLite
 - **Language Processing:** Regular expressions for error detection
 
-🚀 Getting Started
-Prerequisites
+# 🚀 Getting Started
+## Prerequisites
 
 Python 3.8+
 OpenAI API Key
 
-Installation
+## Installation
 
-Clone the repository:
-bashCopygit clone https://github.com/yourusername/language-learning-chatbot.git
+1. Clone the repository:
+```bash
+git clone https://github.com/yourusername/language-learning-chatbot.git
 cd language-learning-chatbot
+```
 
-Install the required packages:
-bashCopypip install -r requirements.txt
+2. Install the required packages:
+```bash
+pip install -r requirements.txt
+```
 
-Create a .env file in the project root and add your OpenAI API key:
-CopyOPENAI_API_KEY=your-api-key-here
+3. Create a **.env** file in the project root and add your OpenAI API key:
+```bash
+OPENAI_API_KEY=your-api-key-here
+```
 
-Running the Application
+## Running the Application
 Run the Streamlit app:
-bashCopystreamlit run app.py
-The application will be available at http://localhost:8501
-📱 Usage
+```bash
+streamlit run app.py
+```
+The application will be available at **http://localhost:8501**
+## 📱 Usage
 
-Start a New Session:
+1. Start a New Session:
 
-Select your native language
-Choose the language you want to learn
-Set your proficiency level
-Pick a conversation scenario
+- Select your native language
+- Choose the language you want to learn
+- Set your proficiency level
+- Pick a conversation scenario
 
-Practice Your Language Skills:
+2. Practice Your Language Skills:
 
-Engage in a natural conversation with the AI tutor
-Receive gentle corrections when you make mistakes
-Learn proper phrasing and grammar in context
+- Engage in a natural conversation with the AI tutor
+- Receive gentle corrections when you make mistakes
+- Learn proper phrasing and grammar in context
 
-Review Your Session:
+3. Review Your Session:
 
-End the conversation to see a summary of your mistakes
-Get personalized suggestions for improvement
-Start a new session with a different scenario
+- End the conversation to see a summary of your mistakes
+- Get personalized suggestions for improvement
+- Start a new session with a different scenario
 
 📂 Project Structure
-Copylanguage-learning-chatbot/
+```
+language-learning-chatbot/
 ├── app.py # Main Streamlit application
 ├── chatbot.py # Language learning bot implementation
 ├── database.py # Database operations
 ├── language_bot.db # SQLite database
 ├── .env # Environment variables
 └── README.md # Project documentation
-💻 Key Components
-app.py
+```
+
+
+
+## 💻 Key Components
+### 1. **app.py** 
 The main Streamlit application that handles the user interface, session management, and coordinates between the database and chatbot components.
-chatbot.py
+### 2. chatbot.py
 Contains the LanguageLearningBot class that manages conversations, analyzes responses for mistakes, and generates session summaries using LangChain and OpenAI.
-database.py
+### 3. database.py
 Provides functions for database initialization, session creation/tracking, and mistake recording.
-🔄 How It Works
+### 🔄 How It Works
 
-Session Initialization:
+### 1. **Session Initialization:**
 
-User provides language preferences and selects a scenario
-System creates a new session in the database
-The chatbot configures a specialized prompt based on user parameters
+- User provides language preferences and selects a scenario
+- System creates a new session in the database
+- The chatbot configures a specialized prompt based on user parameters
 
-Conversation Flow:
+### 2. **Conversation Flow:**
 
-User sends messages in their learning language
-AI responds in the learning language and identifies mistakes
-Corrections are formatted with [Correction] tags and explanations
-Mistakes are analyzed and stored in the database
+- User sends messages in their learning language
+- AI responds in the learning language and identifies mistakes
+- Corrections are formatted with [Correction] tags and explanations
+- Mistakes are analyzed and stored in the database
 
-Session Summary:
+### 3. **Session Summary:**
 
-When the user ends the session, the system analyzes all mistakes
-Mistakes are grouped by type (grammar, vocabulary, etc.)
-The AI generates personalized improvement suggestions
-A comprehensive summary is displayed to the user
+- When the user ends the session, the system analyzes all mistakes
+- Mistakes are grouped by type (grammar, vocabulary, etc.)
+- The AI generates personalized improvement suggestions
+- A comprehensive summary is displayed to the user
 
-🛣️ Future Improvements
+## 🛣️ Future Improvements
 
-Voice recognition and pronunciation feedback
-Custom lesson plans based on common mistakes
-Multiple language tutors with different teaching styles
-Spaced repetition system for previously corrected mistakes
-Export functionality for review materials
-Progress visualization dashboards
+- Voice recognition and pronunciation feedback
+- Custom lesson plans based on common mistakes
+- Multiple language tutors with different teaching styles
+- Spaced repetition system for previously corrected mistakes
+- Export functionality for review materials
+- Progress visualization dashboards
 
-🔒 Privacy Note
+## 🔒 Privacy Note
 All conversation data and mistakes are stored locally in the SQLite database. No data is sent to external servers except for the conversation content sent to OpenAI's API.
-📄 License
+## 📄 License
 This project is licensed under the MIT License - see the LICENSE file for details.
-🙏 Acknowledgements
+##🙏 Acknowledgements
+- OpenAI for providing the GPT-4 API
+- LangChain for the conversation framework
+- Streamlit for the easy-to-use web application framework
 
-OpenAI for providing the GPT-4 API
-LangChain for the conversation framework
-Streamlit for the easy-to-use web application framework
 
-Created with ❤️ for language learners worldwide
+**Created with ❤️ for language learners worldwide**
+
+
