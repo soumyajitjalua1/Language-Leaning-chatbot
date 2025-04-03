@@ -30,8 +30,8 @@ OpenAI API Key
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/language-learning-chatbot.git
-cd language-learning-chatbot
+https://github.com/soumyajitjalua1/Language-Leaning-chatbot.git
+cd Language-Leaning-chatbot
 ```
 
 2. Install the required packages:
