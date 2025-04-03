@@ -9,6 +9,7 @@ import requests
 # Import from our existing modules
 from database import init_db, create_session, end_session
 from chatbot import LanguageLearningBot
+from langchain_openai import ChatOpenAI
 
 # Load environment variables
 load_dotenv()
