@@ -1,6 +1,6 @@
 # chatbot.py
 import os
-from langchain_openai import ChatOpenAI  # Use this single import
+from langchain_openai import ChatOpenAI
 from langchain.chains import ConversationChain
 from langchain.memory import ConversationBufferMemory
 from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder, HumanMessagePromptTemplate, SystemMessagePromptTemplate
