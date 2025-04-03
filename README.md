@@ -2,6 +2,7 @@
 
 A conversational AI-powered language learning assistant that helps users practice their language skills through realistic conversations and provides immediate feedback on mistakes.
 
+![Language Learning Chatbot Architecture](https://github.com/soumyajitjalua1/Language-Leaning-chatbot/blob/main/Screenshot%202025-04-03%20162942.png)
 
 ## 📋 Features
 
