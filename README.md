@@ -1,7 +1,7 @@
 # 🌍 Language Learning Chatbot
 
 A conversational AI-powered language learning assistant that helps users practice their language skills through realistic conversations and provides immediate feedback on mistakes.
-Show Image
+
 
 ## 📋 Features
 
